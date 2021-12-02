@@ -25,8 +25,8 @@
 #define BUF_SIZE 8
 
 int main() {
-	int count, lastSweepSum, thisSweepSum = 0;
-	int s1, s2, s3 = 0;
+	int count = 0, lastSweepSum = 0, thisSweepSum = 0;
+	int s1 = 0, s2 = 0, s3 = 0;
 	char sSweep[BUF_SIZE];
 	
 	FILE* pFile = fopen(INPUT_FILE, "r");
